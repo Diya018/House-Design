@@ -1,0 +1,93 @@
+*{
+margin: 0px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding: 0px;
+
+}
+header{
+    
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(img.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    min-height: 200px;
+    margin-right: 50px;
+    font-size: 17px;
+}
+ul li{
+    display: inline-block;
+
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 4px 20px;
+border: 1px solid transparent;
+}
+
+ul li a:hover{
+    background-color: grey;
+}
+ul li.active a{
+    background-color: grey;
+
+}
+.logo img{
+    float: left;
+    width: 140px;
+    height: auto;
+
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position:absolute;
+    top: 45%;
+    left: 29%;
+
+}
+.title h1{
+    color: bisque;
+    font-size: 58px;
+
+}
+.button{
+    position: absolute;
+    left: 400px;
+    top: 400px;
+}
+.btn{
+    border: 1px solid white;
+    padding: 5px 20px;
+    color: black;
+    font-size: 17px;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: grey;
+
+}
+.sub-part{
+    display: none;
+    position: relative;
+    top: 6%;
+
+}
+.sub-part ul{
+    position: absolute;
+    
+}
+.main ul li:hover .sub-part{
+    display:  block;
+    position: absolute;
+background-color: rgb(red, green, blue);
+margin-top: 12px;
+margin-left: -8px;
+}
